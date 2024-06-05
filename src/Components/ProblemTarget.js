@@ -1,15 +1,15 @@
 import Accordion from 'react-bootstrap/Accordion';
-import { useState } from 'react';
 import '../CSS/Target.css'
 
 function ProblemTarget() {
+  /*
   const [activeItem, setActiveItem] = useState(null);
 
     const handleSelect = (eventKey) => {
         setActiveItem(eventKey);
     };
     
-
+    
     const getImageSrc = () => {
       if (activeItem==null)
         return;
@@ -33,14 +33,14 @@ function ProblemTarget() {
                 return 'defaultImage.jpg';
         }
     };
-
+*/
     
   return (
     <div className='target'>
       <h1 style={{fontWeight:"bold"}}>Things your spreadsheet wishes it could do</h1>
       <div className="d-flex" style={{marginTop: "80px", display:"flex"}}>
         <div style={{marginLeft: "120px", maxWidth: "600px", marginRight: "50px"}} >
-          <Accordion  defaultActiveKey="0" onSelect={handleSelect}>
+          <Accordion  defaultActiveKey="0">
           <Accordion.Item eventKey="0" className='main'>
             <Accordion.Header className='accordion-header'>Accurate Demand Forecasting</Accordion.Header>
             <Accordion.Body className='text-start'>

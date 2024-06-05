@@ -1,4 +1,3 @@
-import List from "./List";
 import { useState } from "react";
 import Review from "./Review";
 import {MDBIcon } from 'mdb-react-ui-kit';
