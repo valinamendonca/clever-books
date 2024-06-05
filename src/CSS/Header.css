@@ -1,0 +1,121 @@
+button{
+  all: unset;
+}
+
+.navbar {
+  background-color: rgb(0,0,0);
+  color: white;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  position: sticky;
+  top: 0;
+}
+
+.gradient-text1 {
+  background: linear-gradient(to bottom right, pink, purple);
+  -webkit-background-clip: text; /* For WebKit-based browsers */
+  background-clip: text; /* Standard property */
+  color: transparent;
+  margin-right: 20px;
+}
+
+.gradient-button1 {
+  background: linear-gradient(to bottom right, pink, purple);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 50px;
+}
+
+.gradient-button1:hover {
+  background: linear-gradient(to bottom right, purple, pink); 
+  color: black;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 120px;
+  margin-bottom: 50px;
+}
+.links-container{
+  width: 500px;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+.dropbtn{
+  display: inline-block;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  height: 80px;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  height: 500px;
+  background-color: #f9f9f9;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 15px;
+  padding: 50px;
+}
+.dropdown1:hover .dropdown-content1,  .dropdown-content1 a{
+  display: block;
+}
+.prod-drop{
+  color: black;
+  padding: 20px;
+  max-width: 300px;
+}
+
+.dropdown-content1 a:hover {
+  background-color: #f1f1f1; 
+  color: black;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 40px;
+  background-color: #f9f9f9;
+  min-width: 285px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 15px;
+}
+
+.drop-icon{
+  margin-right: 25px;
+}
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1; 
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.buttons-container{
+  margin-right: 120px;
+  margin-bottom: 65px;
+}

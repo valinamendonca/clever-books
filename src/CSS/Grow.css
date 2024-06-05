@@ -1,0 +1,20 @@
+@keyframes gradientBackground {
+    0% { background: linear-gradient(to bottom right, pink, purple, purple); }
+    50% { background: linear-gradient(to bottom right, pink, pink, purple); }
+    100% { background: linear-gradient(to bottom right,purple, pink, pink); }
+  }
+  .animated-gradient {
+    margin:  auto;
+    padding: 100px;
+    width: 85%;
+    height: 500px;
+    animation: gradientBackground 4s ease-in-out infinite alternate-reverse;
+    border-radius: 50px;
+  }
+
+  .grow{
+    height: 100vh;
+    padding-top: 100px;
+    color: white;
+    background-color: black;
+  }

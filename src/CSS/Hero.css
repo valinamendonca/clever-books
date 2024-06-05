@@ -1,0 +1,36 @@
+.hero{
+    /*background: linear-gradient(to bottom right, black, black, pink );*/
+    height: 800px;
+    background-color: black;
+    display: flex;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 18%;
+}
+
+.gradient-text {
+    background: linear-gradient(to bottom right, pink, purple);
+    -webkit-background-clip: text; /* For WebKit-based browsers */
+    background-clip: text; /* Standard property */
+    color: transparent; /* Hide original text color */
+  }
+  
+  .gradient-button {
+    margin-top: 8%;
+    background: linear-gradient(to bottom right, pink, purple);
+    border: 2px solid;
+    border-image: linear-gradient(to bottom right, pink, purple) 1;
+    border-image-slice: 1;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: transparent;
+    -webkit-background-clip: text; /* For WebKit-based browsers */
+    background-clip: text; /* Standard property */
+    transition: background 0.3s ease; 
+  }
+
+  /*
+  .gradient-button:hover {
+    background: linear-gradient(to bottom right, purple, pink); /* Reversed gradient on hover 
+  }
+  */

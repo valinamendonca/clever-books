@@ -1,0 +1,29 @@
+.target{
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+
+.main{
+    border: none !important;
+}
+/* Increase font size */
+.accordion-header .accordion-button {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    font-weight: bold;
+}
+
+.gradient-text {
+    background: linear-gradient(to bottom right, pink, purple);
+    -webkit-background-clip: text; /* For WebKit-based browsers */
+    background-clip: text; /* Standard property */
+    color: transparent; /* Hide original text color */
+  }
+
+
+/* Change header color when active */
+.accordion-header .accordion-button:not(.collapsed) {
+    background: linear-gradient(to right, pink, purple, pink);
+    -webkit-background-clip: text; /* For WebKit-based browsers */
+    background-clip: text; /* Standard property */
+    color: transparent; /* Hide original text color */
+}

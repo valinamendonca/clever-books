@@ -1,0 +1,67 @@
+
+
+  .metrices{
+    position: relative;
+    background-color: black;
+  }
+  
+  .scrollspy-example {
+    position: relative;
+    overflow: auto;
+    height: 100vh;
+  }
+  
+  .scrollspy-example div {
+    padding: 10px;
+  }
+  
+  .vh-100 {
+    height: 100vh;
+  }
+  
+  .overflow-auto {
+    overflow: auto;
+  }
+
+  .gradient-border {
+    /*background: linear-gradient(to bottom right, pink, purple);*/
+    color: white;
+    border: 2px solid;
+    border-image: linear-gradient(to bottom right, pink, purple) 1;
+    border-image-slice: 1;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 10px;
+    color: transparent;
+    -webkit-background-clip: text; /* For WebKit-based browsers */
+    background-clip: text; /* Standard property */
+  }
+
+  .my-3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* This will change the scrollbar for the specific element */
+div::-webkit-scrollbar {
+  width: 5px; /* Change width of scrollbar */
+  height: 30px;
+}
+
+div::-webkit-scrollbar-track {
+  background: pink; 
+}
+ 
+div::-webkit-scrollbar-thumb {
+  background: darkmagenta; /* Change color of scrollbar to pink */
+}
+
+div::-webkit-scrollbar-thumb:hover {
+  background: #FFB6C1; /* Change color of scrollbar when hovered */
+}
